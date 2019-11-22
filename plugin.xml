@@ -8,10 +8,10 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="nativeWidget">
-                <param name="android-package" value="cordova.plugin.native.widget.nativeWidget"/>
+                <param name="android-package" value="cordova.plugin.nativeWidget.nativeWidget"/>
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-        <source-file src="src/android/nativeWidget.java" target-dir="src/cordova/plugin/native/widget/nativeWidget"/>
+        <source-file src="src/android/nativeWidget.java" target-dir="src/cordova/plugin/nativeWidget/nativeWidget"/>
     </platform>
 </plugin>
